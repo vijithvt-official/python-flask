@@ -146,12 +146,6 @@ For the `blog-app`:
 
 *Note: Ensure that all necessary dependencies are installed before running the applications.*
 
-## 🎓 Python Course by Vijith
-
-For a structured and in-depth learning experience, check out the **Python Course by Vijith**. This course covers Python fundamentals and progresses to advanced topics, including web development with Flask.
-
-Stay tuned for updates and links to the course materials!
-
 ## 📄 License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
