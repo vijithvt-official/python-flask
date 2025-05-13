@@ -1,5 +1,5 @@
 
-# 🐍 Python Flask Learning Repository
+# 🐍 Python Flask
 
 Welcome to the **Python Flask Learning Repository**! This repository is curated to help beginners and enthusiasts get hands-on experience with the Flask web framework. It encompasses a variety of Python scripts, a Jupyter notebook, and a complete blog application built using Flask.
 
