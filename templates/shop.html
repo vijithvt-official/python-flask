@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Filter</title>
+</head>
+<body>
+    <h1>Shop Products</h1>
+    
+    <!-- Filter Form to select category -->
+    <form>
+        <label for="category">Select Category:</label>
+        <select name="category" id="category">
+            <option value="electronics" {% if category == 'electronics' %}selected{% endif %}>Electronics</option>
+            <option value="fashion" {% if category == 'fashion' %}selected{% endif %}>Fashion</option>
+            <option value="groceries" {% if category == 'groceries' %}selected{% endif %}>Groceries</option>
+        </select>
+        <input type="submit" value="Filter">
+    </form>
+
+    <h2>Products in {{ category.capitalize() }} category</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

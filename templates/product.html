@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ product.name }}</title>
+</head>
+<body>
+
+    <h1>{{ product.name }}</h1>
+    <h3>Brand: {{ product.brand }}</h3>
+    <p><strong>Price:</strong> ${{ product.price }}</p>
+
+    <h4>Features:</h4>
+    <ul>
+        {% for feature in product.features %}
+            <li>{{ feature }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

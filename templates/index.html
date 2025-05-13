@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jinja Template</title>
+</head>
+<body>
+    <h1>Hello, {{ user }}!</h1>
+
+    <h2>Your favorite languages:</h2>
+    <ul>
+        {% for lang in langs %}
+            <li>{{ lang }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if user == "Vijith" %}
+        <p>Welcome, master user!</p>
+    {% else %}
+        <p>Welcome, guest!</p>
+    {% endif %}
+</body>
+</html>
